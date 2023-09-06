@@ -1,0 +1,102 @@
+.account-container a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.container {
+    
+    display: inline;
+    
+    
+}
+
+.carousel-inner h3,h2,p{
+    
+    padding-right: 90vh;
+    
+}
+
+
+
+.carousel-item  h3 {
+   
+    color: black;
+    
+}
+
+.carousel-item  h2 {
+    color: black;
+}
+
+.carousel-item  p {
+    color: black;
+}
+
+.grid-container {
+    padding: 50px;
+    display: flex;
+    border: 1px solid wheat;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.grid-item {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.featured-product {
+    padding: 5vh;
+}
+.featured-product a{
+
+    display: inline;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.brands {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+.card-img-top {
+    width:50%;
+    max-width:150px;
+    
+}
+
+.carousel-caption {
+    padding: 10px;
+}
+
+.row {
+    padding: 50px;
+}
+
+.btn {
+    float: right;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    background-color: rgb(9, 18, 29);
+    color: white;
+    display: grid
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: aliceblue;
+}
